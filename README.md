@@ -1,6 +1,8 @@
 MobileHybridApp-Tartanator
 ==========================
 
+Starter Kit for in-class Training  
+
 ### Follows these steps:
 
 1. **Add jQuery mobile code components into `<head>` section**
