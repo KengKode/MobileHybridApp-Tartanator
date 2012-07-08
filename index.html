@@ -1,14 +1,43 @@
 <!DOCTYPE html> 
 <html> 
 	<head>
-	<meta charset="UTF-8" />
-	<title>The Tartanator</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0rc1/jquery.mobile-1.0rc1.min.css" />
+<link rel="stylesheet" href="tartans/tartans.css" />
+
+<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.0rc1/jquery.mobile-1.0rc1.min.js"></script>
+
+
 </head> 
 <body> 
 
-<h1>The Tartanator</h1>
+<div data-role="page">
+    <div data-role="header" data-position="fixed">
+        <h1>The Tartanator</h1>
+      <div data-role="header" data-theme="b" class="forrit">Bring forrit the tartan!</div>
+     
+    
+    </div>
 
-<p>The Tartanator is a community-built association of groups, businesses and individuals bent on keeping the Scottish heritage alive overseas by promoting the understanding and enjoyment of <strong>tartans</strong>.</p>
+    <div data-role="content">
+        <p>The Tartanator is a community-built asso</p>
+        <ul data-role="listview" data-inset="true">
+<li><a href="aboutus.html">About us</a></li>
+<li><a href="findevent.html">Find an Event</a></li>
+<li><a href="tartans.html">Popular Tartans</a></li>
+</ul>
+    </div>
 
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar" >
+            <ul>
+                <li><a href="index.html" data-icon="info" class="ui-btn-active">About</a></li>
+                <li><a href="findevent.html" data-icon="star">Events</a></li>
+                <li><a href="tartans.html" data-icon="grid">Tartans</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
 </body>
 </html>
