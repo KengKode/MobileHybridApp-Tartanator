@@ -124,3 +124,4 @@
 #wallace { background-image:url('icons/wallace.png'); }
 #watson { background-image:url('icons/watson.png'); }
 #wellington { background-image:url('icons/wellington.png'); }
+[data-role="footer"] {text-align: center; padding: 5px 0;}
